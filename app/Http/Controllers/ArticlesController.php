@@ -7,4 +7,9 @@ class ArticlesController extends Controller
     {
         return view('articles.index');
     }
+
+    public function welcome()
+    {
+        return view('home');
+    }
 }
