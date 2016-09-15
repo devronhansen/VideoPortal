@@ -18,7 +18,7 @@
             <br>
             <div class="form-group">
                 <label for="comment">Your Email Text:</label>
-                <textarea class="form-control" rows="10" id="comment"></textarea>
+                <textarea class="form-control" rows="10" id="comment" style="resize: none"></textarea>
             </div>
             </form>
             <button type="button" class="btn btn-primary">Send</button>
