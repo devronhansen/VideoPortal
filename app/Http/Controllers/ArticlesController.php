@@ -6,7 +6,10 @@ class ArticlesController extends Controller
 {
     public function index()
     {
-        return view('articles.index');
+        $posts = Post::orderBy('id', 'desc')->paginate('8');
+        return view('articles.index', [
+            'posts' => $posts
+        ]);
     }
 
     public function welcome()

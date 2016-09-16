@@ -2,7 +2,7 @@
 
 Route::auth();
 
-Route::get('blog/{slug}', ['as' => 'blog.single', 'uses' => 'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');
+Route::get('blog/{slug}', 'BlogController@getSingle')->where('slug', '[\w\d\-\_]+');/*['as' => 'blog.single', 'uses' => 'BlogController@getSingle'])->where('slug', '[\w\d\-\_]+');*/
 Route::get('/', 'ArticlesController@welcome');
 Route::get('about', 'AboutController@index');
 Route::get('contact', 'ContactController@index');

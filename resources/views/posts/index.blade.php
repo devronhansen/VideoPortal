@@ -40,7 +40,7 @@
                 </tbody>
             </table>
 
-            <div class="text-center">
+            <div class="text-center push-to-bottom">
                 {{ $posts->links() }}
             </div>
         </div>

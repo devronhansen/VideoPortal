@@ -23,7 +23,8 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(App\Post::class, function (Faker\Generator $faker) {
     return [
         'title' => $faker->text($maxNbChars = 100),
-        'body' => $faker->text($maxNbChars = 1000)
+        'body' => $faker->text($maxNbChars = 1000),
+        'slug' => $faker->unique()->word
     ];
 });
 
