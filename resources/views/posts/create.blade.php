@@ -9,7 +9,7 @@
             <form method="POST" action="/posts">
                 {{ csrf_field() }}
                 <div class="input-group col-md-4 {{--col-md-offset-5--}}">
-                    <span class="input-group-addon">Title</span>
+                    <span class="input-group-addon">Titel</span>
                     <input type="text" class="form-control" placeholder="Title" name="title" required>
                 </div>
 
@@ -25,7 +25,7 @@
             <label for="body">Post:</label>
             <textarea class="form-control" rows="7" id="body" name="body" required style="resize: none"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-block">Send Post</button>
+        <button type="submit" class="btn btn-primary btn-block">Sende Post</button>
         </form>
     </div>
     </div>

@@ -13,6 +13,6 @@ class BlogController extends Controller
         //fetch from the db based on slug
         $post = Post::where('slug', '=', $slug)->first();
         // return the view and pass in the post object
-        return view('blog.single', ['post' => $post]);
+        return view('video.single', ['post' => $post]);
     }
 }

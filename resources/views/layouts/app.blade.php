@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ron's Blog</title>
+    <title>TSBW Video Portal</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -43,7 +43,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                Ron's Blog
+                TSBW Video Portal
             </a>
         </div>
 
@@ -51,17 +51,17 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 {{-- <li><a href="{{ url('/home') }}">Home</a></li> --}}
-                <li><a href="{{ url('articles') }}">All Articles</a></li>
-                <li><a href="{{ url('about') }}">About me</a></li>
-                <li><a href="{{ url('contact') }}">Get in touch</a></li>
+                <li><a href="{{ url('articles') }}">Alle Videos</a></li>
+                <li><a href="{{ url('about') }}">Über uns</a></li>
+                <li><a href="{{ url('contact') }}">Kontakt</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
                 <!-- Authentication Links -->
                 @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Login</a></li>
-                    <li><a href="{{ url('/register') }}">Register</a></li>
+                    <li><a href="{{ url('/login') }}">Einloggen</a></li>
+                    <li><a href="{{ url('/register') }}">Registrieren</a></li>
                 @else
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -69,7 +69,10 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            @if(Auth::user()->isAdmin)
+                                <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i>Admin Ansicht</a></li>
+                            @endif
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Ausloggen</a></li>
                         </ul>
                     </li>
                 @endif
@@ -107,8 +110,8 @@
         crossorigin="anonymous"></script>
 <script src="http://brm.io/js/libs/matchHeight/jquery.matchHeight-min.js"></script>
 <script type="text/javascript">
-    (function() {
-        $(function() {
+    (function () {
+        $(function () {
             $('.thumbnail').matchHeight({
                 byRow: true,
                 property: 'height',

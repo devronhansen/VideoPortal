@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers;
 
-
 use Illuminate\Http\Request;
 use App\Post;
 use Session;
 
 class PostController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('admin');
+    }
+
     public function index()
     {
         $posts = Post::orderBy('id', 'desc')->paginate(10);

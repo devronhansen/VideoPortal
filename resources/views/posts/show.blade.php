@@ -13,15 +13,15 @@
                 <dl class="dl-horizontal">
                     <label>Url:</label>
                     <p>
-                        <a href="{{--{{route('blog.single', $post->slug)}} --}}/blog/{{$post->slug}}">{{url("/blog/$post->slug")}}{{--{{route('blog.single', $post->slug)}}--}}</a>
+                        <a href="{{--{{route('blog.single', $post->slug)}} --}}/video/{{$post->slug}}">{{url("/video/$post->slug")}}{{--{{route('blog.single', $post->slug)}}--}}</a>
                     </p>
                 </dl>
                 <dl class="dl-horizontal">
-                    <label>Created At:</label>
+                    <label>Erstellt am:</label>
                     <p>{{$post->created_at->formatLocalized('%d. %m. %Y')}}</p>
                 </dl>
                 <dl class="dl-horizontal">
-                    <label>Last Updated:</label>
+                    <label>Bearbeitet am:</label>
                     <p>{{$post->updated_at->formatLocalized('%d. %m. %Y')}}</p>
                 </dl>
                 <hr>
@@ -30,19 +30,19 @@
                     <div class="col-sm-6">
                         <form action="{{$post->id}}/edit" method="GET">
                             {{csrf_field()}}
-                            <button type="submit" class="btn btn-primary btn-block">Edit</button>
+                            <button type="submit" class="btn btn-primary btn-block">Bearbeiten</button>
                         </form>
                     </div>
                     <div class="col-sm-6">
                         <form action="{{$post->id}}" method="POST">
                             {{csrf_field()}}
                             {{ method_field('DELETE') }}
-                            <button type="submit" class="btn btn-danger btn-block">Delete</button>
+                            <button type="submit" class="btn btn-danger btn-block">Löschen</button>
                         </form>
                     </div>
 
                     <div class="col-sm-12">
-                        <a href="/posts" class="btn btn-block btn-default" style="margin-top: 15px"> << Back to All
+                        <a href="/posts" class="btn btn-block btn-default" style="margin-top: 15px"> << Zurück zu allen
                             Posts</a>
                         </form>
                     </div>
