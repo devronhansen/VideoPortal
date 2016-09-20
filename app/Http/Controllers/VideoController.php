@@ -2,7 +2,7 @@
 namespace App\Http\Controllers;
 use App\Post;
 
-class ArticlesController extends Controller
+class VideoController extends Controller
 {
     public function index()
     {
@@ -18,5 +18,13 @@ class ArticlesController extends Controller
         return view('home', [
             'posts' => $posts
         ]);
+    }
+
+    public function getSingle($slug)
+    {
+        //fetch from the db based on slug
+        $post = Post::where('slug', '=', $slug)->first();
+        // return the view and pass in the post object
+        return view('video.single', ['post' => $post]);
     }
 }
