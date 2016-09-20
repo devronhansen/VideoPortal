@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use Illuminate\Support\Facades\Input;
 use Session;
 use Illuminate\Support\Facades\File;
 
@@ -44,6 +45,8 @@ class PostController extends Controller
         $post->body = $request->input('body');
         $post->slug = $request->input('slug');
         $post->save();
+
+        uploadVideo(Input::file('file_0'), $post->id);
 
         Session::flash('success', 'The Post was successfully saved!');
 
@@ -89,6 +92,9 @@ class PostController extends Controller
         $posts->body = $request->input('body');
         $posts->slug = $request->input('slug');
         $posts->save();
+
+        uploadVideo(Input::file('file_0'), $posts->id);
+
         Session::flash('success', 'Der Eintrag wurde erfolgreich gespeichert!');
         return redirect('/posts');
     }
