@@ -14,8 +14,8 @@
                 <div class="thumbnail">
                     <img src="" alt="...">
                     <div class="caption">
-                        <h3>{{(strlen($post->title)>=28) ? substr($post->body, 0, 28)."..." : $post->title}}</h3>
-                        <p>{{(strlen($post->body)>=100) ? substr($post->body, 0, 100)."..." : $post->body}}</p>
+                        <h3>{{(strlen($post->title)>=25) ? substr($post->title, 0, 25)."..." : $post->title}}</h3>
+                        <p>{{(strlen($post->body)>=70) ? substr($post->body, 0, 70)."..." : $post->body}}</p>
                         <p><a href="/video/{{$post->slug}}" class="btn btn-primary" role="button">Mehr</a>
                         </p>
                     </div>

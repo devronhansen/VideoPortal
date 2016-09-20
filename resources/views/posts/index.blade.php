@@ -29,7 +29,7 @@
                     <tr>
                         <th>{{$post->id}}</th>
                         <td>{{(strlen($post->title)>=25) ? substr($post->body, 0, 25)."..." : $post->title}}</td>
-                        <td>{{(strlen($post->body)>=90) ? substr($post->body, 0, 90)."..." : $post->body}}</td>
+                        <td>{{(strlen($post->body)>=70) ? substr($post->body, 0, 70)."..." : $post->body}}</td>
                         <td>{{$post->created_at}}</td>
                         <td><a href="/posts/{{$post->id}}" class="btn btn-default">Ansehen</a> <a
                                     href="/posts/{{$post->id}}/edit" class="btn btn-default">Bearbeiten</a>

@@ -2,10 +2,16 @@
 
 
 @section('content')
-    <div class="row">
         <div class="col-md-8">
             <h1>{{$post->title}}</h1>
-            <p class="lead">{{$post->body}}</p>
+            <br>
+            <div align="left" class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls>
+                    <source src="/files/{{$post->id}}.mp4" type="video/mp4">
+                </video>
+            </div>
+            <hr>
+            <p>{{$post->body}}</p>
         </div>
 
         <div class="col-md-4">
@@ -18,11 +24,11 @@
                 </dl>
                 <dl class="dl-horizontal">
                     <label>Erstellt am:</label>
-                    <p>{{$post->created_at->formatLocalized('%d. %m. %Y')}}</p>
+                    <p>{{$post->created_at->formatLocalized('%d.%m.%Y')}}</p>
                 </dl>
                 <dl class="dl-horizontal">
                     <label>Bearbeitet am:</label>
-                    <p>{{$post->updated_at->formatLocalized('%d. %m. %Y')}}</p>
+                    <p>{{$post->updated_at->formatLocalized('%d.%m.%Y')}}</p>
                 </dl>
                 <hr>
 

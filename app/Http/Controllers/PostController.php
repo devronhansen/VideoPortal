@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use Session;
+use Illuminate\Support\Facades\File;
 
 class PostController extends Controller
 {
@@ -64,6 +65,7 @@ class PostController extends Controller
 
     public function destroy($id)
     {
+        deleteVideo($id);
         Post::find($id)->delete();
         Session::flash('success', "The post was successfully deleted");
         return redirect('/posts');

@@ -7,7 +7,7 @@ class VideoController extends Controller
     public function index()
     {
         $posts = Post::orderBy('id', 'desc')->paginate('8');
-        return view('articles.index', [
+        return view('video.index', [
             'posts' => $posts
         ]);
     }

@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <style>
+   {{-- <style>
         body {
             font-family: 'Lato';
         }
@@ -29,7 +29,7 @@
         .fa-btn {
             margin-right: 6px;
         }
-    </style>
+    </style>--}}
 </head>
 <body id="app-layout">
 <nav class="navbar navbar-default navbar-static-top">
@@ -74,9 +74,9 @@
 
                         <ul class="dropdown-menu" role="menu">
                             @if(Auth::user()->isAdmin)
-                                <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i>Admin Ansicht</a></li>
+                                <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Admin Ansicht</a></li>
                             @endif
-                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Ausloggen</a></li>
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Ausloggen</a></li>
                         </ul>
                     </li>
                 @endif
