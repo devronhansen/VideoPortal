@@ -9,7 +9,7 @@
         @foreach($posts as $post)
             <div class="col-md-3">
                 <div class="thumbnail">
-                    <img src="" alt="...">
+                    <img src="/thumbnails/{{$post->id}}.jpg" alt="...">
                     <div class="caption">
                         <h3>{{(strlen($post->title)>=28) ? substr($post->body, 0, 28)."..." : $post->title}}</h3>
                         <p>{{(strlen($post->body)>=100) ? substr($post->body, 0, 100)."..." : $post->body}}</p>

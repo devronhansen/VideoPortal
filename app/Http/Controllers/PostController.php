@@ -47,7 +47,7 @@ class PostController extends Controller
         $post->save();
 
         uploadVideo(Input::file('file_0'), $post->id);
-
+        uploadPicture(Input::file('file_image'), $post->id);
         Session::flash('success', 'The Post was successfully saved!');
 
         //redirect
@@ -69,6 +69,7 @@ class PostController extends Controller
     public function destroy($id)
     {
         deleteVideo($id);
+        deletePicture($id);
         Post::find($id)->delete();
         Session::flash('success', "The post was successfully deleted");
         return redirect('/posts');
@@ -93,6 +94,7 @@ class PostController extends Controller
         $posts->slug = $request->input('slug');
         $posts->save();
 
+        uploadPicture(Input::file('file_image'), $posts->id);
         uploadVideo(Input::file('file_0'), $posts->id);
 
         Session::flash('success', 'Der Eintrag wurde erfolgreich gespeichert!');
