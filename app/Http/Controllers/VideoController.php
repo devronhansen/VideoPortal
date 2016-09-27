@@ -1,15 +1,28 @@
 <?php
 namespace App\Http\Controllers;
 use App\Post;
-
+use App\Category;
 class VideoController extends Controller
 {
+    public function getAll()
+    {
+        return Post::all();
+    }
     public function index()
     {
+        $categories = Category::all();
         $posts = Post::orderBy('id', 'desc')->paginate('8');
         return view('video.index', [
-            'posts' => $posts
+            'posts' => $posts,
+            'categories' => $categories
         ]);
+    }
+
+    public function giveAjax($category_id)
+    {
+       return Post::where('category_id', $category_id)
+           ->orderBy('id', 'desc')
+           ->get();
     }
 
     public function welcome()

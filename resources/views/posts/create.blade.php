@@ -8,13 +8,22 @@
             <br>
             <form method="POST" action="/posts" enctype="multipart/form-data">
                 {{ csrf_field() }}
+
+                <div class="input-group col-md-4 pull-right{{--col-md-offset-5--}}">
+                    <span class="input-group-addon">Category</span>
+                    <select class="form-control" name="category_id">
+                        @foreach($categories as $category)
+                            <option value="{{$category->id}}">{{$category->name}}</option>
+                        @endforeach
+                    </select>
+                </div>
                 <div class="input-group col-md-4 {{--col-md-offset-5--}}">
                     <span class="input-group-addon">Titel</span>
                     <input type="text" class="form-control" placeholder="Title" name="title" required>
                 </div>
 
                 <br>
-                <div class="input-group col-md-4 {{--col-md-offset-5--}}">
+                <div class="input-group col-md-4">
                     <span class="input-group-addon">Slug</span>
                     <input type="text" class="form-control" placeholder="Slug" name="slug" required>
                 </div>

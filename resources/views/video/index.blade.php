@@ -1,26 +1,43 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="col-md-12">
-            <h1>Alle Videos</h1>
-            <br>
+    <div class="col-md-12">
+        <h1>Alle Videos</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-8">
+            <select class="form-control" name="category_id" id="select-category">
+                <option value="" disabled selected hidden>Sortieren nach Katagorie...</option>
+                <option value="0">Alle</option>
+                @foreach($categories as $category)
+                    <option value="{{$category->id}}">{{$category->name}}</option>
+                @endforeach
+            </select>
         </div>
-        @foreach($posts as $post)
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="/thumbnails/{{$post->id}}.jpg" alt="...">
-                    <div class="caption">
-                        <h3>{{(strlen($post->title)>=28) ? substr($post->body, 0, 28)."..." : $post->title}}</h3>
-                        <p>{{(strlen($post->body)>=100) ? substr($post->body, 0, 100)."..." : $post->body}}</p>
-                        <p><a href="/video/{{$post->slug}}" class="btn btn-primary" role="button">Mehr</a>
-                        </p>
+        <div class="col-md-12">
+            <hr>
+        </div>
+        <div id="all-thumbnails">
+            @foreach($posts as $post)
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="/thumbnails/{{$post->id}}.jpg" alt="...">
+                        <div class="caption">
+                            <h3>{{(strlen($post->title)>=28) ? substr($post->title, 0, 28)."..." : $post->title}}</h3>
+                            <p>{{(strlen($post->body)>=100) ? substr($post->body, 0, 100)."..." : $post->body}}</p>
+                            <p><a href="/video/{{$post->slug}}" class="btn btn-primary" role="button">Mehr</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
     <div class="text-center">
         {{ $posts->links() }}
     </div>
+@endsection
+
+@section('scripts')
+    <script src="/javascript/order-videos.js"></script>
 @endsection

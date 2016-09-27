@@ -75,6 +75,7 @@
                         <ul class="dropdown-menu" role="menu">
                             @if(Auth::user()->isAdmin)
                                 <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Admin Ansicht</a></li>
+                                <li><a href="{{ url('/categories') }}"><i class="fa fa-bars"></i></i> Kategorien</a></li>
                             @endif
                             <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Ausloggen</a></li>
                         </ul>
@@ -132,5 +133,7 @@
 </script>
 <script src="/javascript/action.js"></script>
 {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+
+@yield('scripts');
 </body>
 </html>

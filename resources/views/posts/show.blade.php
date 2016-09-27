@@ -23,6 +23,10 @@
                     </p>
                 </dl>
                 <dl class="dl-horizontal">
+                    <label>Kategorie:</label>
+                    <p>{{($post->category->name)}}</p>
+                </dl>
+                <dl class="dl-horizontal">
                     <label>Erstellt am:</label>
                     <p>{{$post->created_at->formatLocalized('%d.%m.%Y')}}</p>
                 </dl>

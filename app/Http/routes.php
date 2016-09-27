@@ -8,4 +8,9 @@ Route::get('about', 'AboutController@index');
 Route::get('contact', 'ContactController@index');
 Route::get('video', 'VideoController@index');
 
+Route::get('video/sort/{category_id}', 'VideoController@giveAjax');
+Route::get('all', 'VideoController@getAll');
+
 Route::resource('posts', 'PostController');
+
+Route::resource('categories', 'CategoryController', ['except' => ['create']]);

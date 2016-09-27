@@ -6,7 +6,7 @@
              {{--style="margin-left: 500px"--}} class="pull-right" style="margin-right: 100px"/>
         <h2 class="test">Hey, ich bin Helga die Office Eule</h2>
         <p class="test">Wir haben in der IT da so ein neues Office Portal euch zugänglich gemacht.</br> Meine Aufgabe ist es euch zu
-            zeigen, wie ihr schnell und einfach lernt mit </br> Allem dort umzugehen!</p>
+            zeigen, wie ihr schnell und einfach lernt damit umzugehen</p>
         <p><a class="btn btn-primary btn-lg" href="/about" role="button">Erfahre mehr</a></p>
     </div>
 
