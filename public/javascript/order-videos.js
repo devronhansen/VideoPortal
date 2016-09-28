@@ -21,7 +21,7 @@ function loadData(category_id) {//load all data
         dataType: 'JSON',
         success: function (data) {
             data.forEach(function (item) {
-                $('#all-thumbnails').append('<div class="col-md-3"><div class="thumbnail"><img src="/thumbnails/' + item.id + '.jpg" alt="..."><div class="caption"><h3>' + ((item.title.length >= 28) ? item.title.substring(0, 28) + "..." : item.title) + '</h3><p>' + ((item.body.length >= 100) ? item.body.substring(0, 100) + "..." : item.body) + '</p> <p><a href="/video/' + item.slug + '" class="btn btn-primary" role="button">Mehr</a> </p> </div></div></div>');
+                $('#all-thumbnails').append('<div class="col-md-3"><div class="thumbnail"><img src="/thumbnails/' + item.id + '.jpg" alt="..."><div class="caption"><h3>' + ((item.title.length >= 28) ? item.title.substring(0, 28) + "..." : item.title) + '</h3><p>' + ((item.body.length >= 100) ? item.body.substring(0, 100) + "..." : item.body) + '</p> <p><a href="/video/' + item.slug + '" class="btn btn-primary place-bottom-left" role="button">Mehr</a> </p> </div></div></div>');
             });
         }
     });

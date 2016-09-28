@@ -13,12 +13,12 @@
     <div class="row">
         @foreach($posts as $post)
             <div class="col-md-4">
-                <div class="thumbnail">
+                <div class="thumbnail thumbnail-home">
                     <img src="/thumbnails/{{$post->id}}.jpg" alt="...">
                     <div class="caption">
                         <h3>{{(strlen($post->title)>=25) ? substr($post->title, 0, 25)."..." : $post->title}}</h3>
                         <p>{{(strlen($post->body)>=70) ? substr($post->body, 0, 70)."..." : $post->body}}</p>
-                        <p><a href="/video/{{$post->slug}}" class="btn btn-primary" role="button">Mehr</a>
+                        <p><a href="/video/{{$post->slug}}" class="btn btn-primary place-bottom-left" role="button">Mehr</a>
                         </p>
                     </div>
                 </div>

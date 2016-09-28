@@ -6,7 +6,7 @@ class VideoController extends Controller
 {
     public function getAll()
     {
-        return Post::all();
+        return Post::orderBy('id', 'desc')->get();
     }
     public function index()
     {
