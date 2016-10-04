@@ -8,13 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ccf63d-00e9-4d75-ad06-15ef2fa7dfc9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/comment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/thumbnails/1.jpg" afterPath="$PROJECT_DIR$/public/thumbnails/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/thumbnails/2.jpg" afterPath="$PROJECT_DIR$/public/thumbnails/2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/action.js" afterPath="$PROJECT_DIR$/public/javascript/action.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/order-videos.js" afterPath="$PROJECT_DIR$/public/javascript/order-videos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/video/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/video/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Post.php" afterPath="$PROJECT_DIR$/app/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/video/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/video/single.blade.php" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,43 +57,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order-videos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascript/order-videos.js">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="784">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="770">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="54" />
               <folding>
-                <element signature="e#38#51#0#PHP" expanded="true" />
+                <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="84">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -96,8 +94,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -114,18 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/create-cert.sh" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/news.php" />
-        <option value="$PROJECT_DIR$/bootstrap/app.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_08_18_084036_create_post_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_09_14_150841_add_slug_to_posts.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/single.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/javascript/action.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php" />
@@ -135,13 +121,11 @@
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/emails/password.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
-        <option value="$PROJECT_DIR$/resources/views/contact/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/video/single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
@@ -150,21 +134,35 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_09_27_091031_add_category_id_to_posts.php" />
         <option value="$PROJECT_DIR$/resources/views/categories/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_08_18_084036_create_posts_table.php" />
-        <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/javascript/action.js" />
         <option value="$PROJECT_DIR$/resources/views/video/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" />
         <option value="$PROJECT_DIR$/public/javascript/order-videos.js" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/DropAllTables.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/app/Comment.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_10_03_190914_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/css/comment.css" />
+        <option value="$PROJECT_DIR$/resources/views/video/single.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/contact/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/contact.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
       </list>
     </option>
   </component>
@@ -275,7 +273,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,11 +291,57 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,7 +355,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;indx&#9;null&#9;null&#10;styl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/css/style.css&#10;video&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;javascr&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;vide&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;app.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;shi&#9;null&#9;null&#10;edit&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/edit.blade.php&#10;postc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Post.php&#10;Category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;show&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create_p&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;pos&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;posc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;layout/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts&#10;CategoryC&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Post.php&#10;Cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;add_ca&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;pot&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;create_c&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_090541_create_categories_table.php&#10;Categ&#9;null&#9;null&#10;uplo&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/upload.php&#10;hom&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;edi&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/edit.blade.php&#10;act&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/javascript/action.js&#10;video/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video&#10;config/app&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config/app.php&#10;acti&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/javascript/action.js&#10;admin&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Middleware/MustBeAdministrator.php&#10;upl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/app/Http/upload.php&#10;composer.js&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/composer.json&#10;compiled.php&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/bootstrap/cache/compiled.php&#10;app&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/resources/views/layouts/app.blade.php&#10;video/s&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/resources/views/video/single.blade.php&#10;post/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/resources/views/posts&#10;vid&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/app/Http/Controllers/VideoController.php&#10;videe&#9;null&#9;null&#10;sing&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/resources/views/video/single.blade.php&#10;create_pos&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;fac&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/database/factories/ModelFactory.php&#10;wel&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Blog/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/views/welcome.stub" />
+    <property name="SearchEverywhereHistoryKey" value="env&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;pos&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;edi&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;postc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;Contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php&#10;route&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;edit&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;contact/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;contact&#9;null&#9;null&#10;StreamBuffer.p&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php&#10;create.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;.e&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;sty&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/public/css/style.css&#10;app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app.&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;creatt&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;user&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/User.php&#10;singl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;routes&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;Comments&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Post.php&#10;Comment&#9;null&#9;null&#10;migration&#9;null&#9;null&#10;home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;indx&#9;null&#9;null&#10;styl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/css/style.css&#10;video&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;javascr&#9;null&#9;null&#10;vide&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;app.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;shi&#9;null&#9;null&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Post.php&#10;Category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;show&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create_p&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;posc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;layout/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts&#10;CategoryC&#9;null&#9;null&#10;Cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;add_ca&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;pot&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;create_c&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_090541_create_categories_table.php&#10;Categ&#9;null&#9;null&#10;uplo&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/upload.php" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -423,11 +471,13 @@
       <workItem from="1474957835392" duration="22575000" />
       <workItem from="1475041887088" duration="6171000" />
       <workItem from="1475062419534" duration="918000" />
+      <workItem from="1475514151021" duration="3177000" />
+      <workItem from="1475572825502" duration="16939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192144000" />
+    <option name="totallyTimeSpent" value="212260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +489,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11513859" sideWeight="0.50360453" order="4" side_tool="true" content_ui="tabs" />
@@ -501,160 +551,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/about/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/errors/503.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/views/welcome.stub">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -669,36 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/video/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/cache/compiled.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1833">
-          <caret line="210" column="58" selection-start-line="210" selection-start-column="58" selection-end-line="210" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
@@ -727,14 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -747,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,42 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_27_091031_add_category_id_to_posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="117" column="64" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,18 +651,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/video/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/DropAllTables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -844,18 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="392">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="e#38#51#0#PHP" expanded="true" />
           </folding>
@@ -864,9 +703,255 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="392">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_10_03_190914_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/cache/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4018">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2954">
+          <caret line="210" column="58" selection-start-line="210" selection-start-column="58" selection-end-line="210" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="122" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/comment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/video/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#1132#1156#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

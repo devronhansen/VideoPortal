@@ -19,13 +19,13 @@
                 </div>
                 <div class="input-group col-md-4 {{--col-md-offset-5--}}">
                     <span class="input-group-addon">Titel</span>
-                    <input type="text" class="form-control" placeholder="Title" name="title" required>
+                    <input type="text" class="form-control" placeholder="Title" value="{{ old('title') }}" name="title" required>
                 </div>
 
                 <br>
                 <div class="input-group col-md-4">
                     <span class="input-group-addon">Slug</span>
-                    <input type="text" class="form-control" placeholder="Slug" name="slug" required>
+                    <input type="text" class="form-control" placeholder="Slug" name="slug" value="{{ old('slug') }}" required>
                 </div>
                 <br>
                 <br><label class="btn btn-primary btn-file col-md-4 col-md-offset-1">
@@ -51,7 +51,7 @@
                 <div class="form-group col-md-12" style="margin-top: 25px">
                     <label for="body">Post:</label>
                     <textarea class="form-control" rows="7" id="body" name="body" required
-                              style="resize: none"></textarea>
+                              style="resize: none">{{ old('body') }}</textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Sende Post</button>
             </form>
