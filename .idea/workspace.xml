@@ -44,33 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/contact/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/video/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="518">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
               <folding>
                 <element signature="e#1014#1039#0#HTML" expanded="true" />
               </folding>
@@ -81,9 +59,33 @@
       <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="196">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="e#38#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,28 +295,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emails" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -354,7 +334,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="SearchEverywhereHistoryKey" value="singl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;env&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;pos&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;edi&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;postc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;Contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php&#10;route&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;edit&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;contact/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;contact&#9;null&#9;null&#10;StreamBuffer.p&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php&#10;create.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;.e&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;sty&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/public/css/style.css&#10;app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app.&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;creatt&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;user&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/User.php&#10;routes&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;Comments&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Post.php&#10;Comment&#9;null&#9;null&#10;migration&#9;null&#9;null&#10;home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;indx&#9;null&#9;null&#10;styl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/css/style.css&#10;video&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;javascr&#9;null&#9;null&#10;vide&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;app.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;shi&#9;null&#9;null&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Post.php&#10;Category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;show&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create_p&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;posc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;layout/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts&#10;CategoryC&#9;null&#9;null&#10;Cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;add_ca&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;pot&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;create_c&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_090541_create_categories_table.php&#10;Categ&#9;null&#9;null&#10;uplo&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/upload.php" />
+    <property name="SearchEverywhereHistoryKey" value="video&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/VideoController.php&#10;commec&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/CommentsController.php&#10;singl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;env&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;pos&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;edi&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;postc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;Contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php&#10;route&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;edit&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;contact/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;contact&#9;null&#9;null&#10;StreamBuffer.p&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php&#10;create.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;.e&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;sty&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/public/css/style.css&#10;app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app.&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;creatt&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;user&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/User.php&#10;routes&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;Comments&#9;null&#9;null&#10;Post&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Post.php&#10;Comment&#9;null&#9;null&#10;migration&#9;null&#9;null&#10;home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;indx&#9;null&#9;null&#10;styl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/public/css/style.css&#10;javascr&#9;null&#9;null&#10;vide&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;app.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;shi&#9;null&#9;null&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Post.php&#10;Category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;show&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;category&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;create_p&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/create.blade.php&#10;posc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;layout/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts&#10;CategoryC&#9;null&#9;null&#10;Cate&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Category.php&#10;add_ca&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_091031_add_category_id_to_posts.php&#10;pot&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_08_18_084036_create_posts_table.php&#10;create_c&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_09_27_090541_create_categories_table.php&#10;Categ&#9;null&#9;null" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -471,12 +451,12 @@
       <workItem from="1475041887088" duration="6171000" />
       <workItem from="1475062419534" duration="918000" />
       <workItem from="1475514151021" duration="3177000" />
-      <workItem from="1475572825502" duration="17423000" />
+      <workItem from="1475572825502" duration="18567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212744000" />
+    <option name="totallyTimeSpent" value="213888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,16 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#38#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -729,16 +699,6 @@
         <state relative-caret-position="448">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,28 +886,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#38#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/video/single.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="518">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
           <folding>
             <element signature="e#1014#1039#0#HTML" expanded="true" />
           </folding>

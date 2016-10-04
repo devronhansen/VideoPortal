@@ -42,7 +42,7 @@
 
         <h3 class="comments-title"><span
                     class="glyphicon glyphicon-comment"></span> {{ $post->comments()->count() }} Comments</h3>
-        @foreach($post->comments as $comment)
+        @foreach($post->comments->reverse() as $comment)
             <div class="comment">
                 <div class="author-info">
                     <img src="{{ "https://www.gravatar.com/avatar/" . md5(strtolower(trim($comment->user->email))) . "?s=50&d=mm" }}"
