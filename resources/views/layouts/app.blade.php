@@ -258,6 +258,6 @@
 <script src="/javascript/action.js"></script>
 {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 
-@yield('scripts');
+@yield('scripts')
 </body>
 </html>

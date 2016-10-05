@@ -1,5 +1,16 @@
 @extends('layouts.app')
 
+@section('style')
+    <link rel="stylesheet" href="/css/loading.css">
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'link',
+            menubar: false,
+        })
+    </script>
+@endsection
 
 @section('content')
     <div class="row">
@@ -19,10 +30,10 @@
                 <select class="form-control" name="category_id">
                     @foreach($categories as $category)
                         <option value="{{$category->id}}"
-                        @if($category == $post->category)
-                        selected="selected"
-                            @endif
-                            >{{$category->name}}</option>
+                                @if($category == $post->category)
+                                selected="selected"
+                                @endif
+                        >{{$category->name}}</option>
 
                     @endforeach
                 </select>
@@ -45,9 +56,12 @@
                 <h4><span class="label label-default download-pic col-md-offset-1 col-md-4"
                           style="display: block"></span></h4>
                 <br>
+                <div id="loading">
+                    <img id="loading-image" src="/pictures/loading.svg" alt="Loading..." />
+                </div>
                 <div class="form-group col-md-12" style="margin-top: 25px">
                     <label for="body">Inhalt:</label>
-                    <textarea class="form-control" rows="23" name="body" style="resize: none">{{$post->body}}</textarea>
+                    <textarea class="form-control" rows="20" name="body" style="resize: none">{{$post->body}}</textarea>
                 </div>
 
 
@@ -68,7 +82,7 @@
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <button type="submit" class="btn btn-success btn-block">Speichern</button>
+                            <button type="submit" class="btn btn-success btn-block save">Speichern</button>
                         </div>
                         <div class="col-sm-6">
                             <a href="/posts/{{$post->id}}" class="btn btn-danger btn-block">Abbrechen</a>
@@ -78,4 +92,8 @@
             </div>
         </form>
     </div>
+@endsection
+
+@section('scripts')
+    <script src="/javascript/loading.js"></script>
 @endsection

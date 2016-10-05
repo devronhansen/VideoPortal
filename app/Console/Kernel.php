@@ -14,7 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         // Commands\Inspire::class,
-        Commands\DropAllTables::class
+        Commands\DropAllTables::class,
+        Commands\makeAdmin::class
     ];
 
     /**

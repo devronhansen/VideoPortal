@@ -15,7 +15,7 @@
             </video>
         </div>
         <br>
-        <p style="margin-bottom:50px">{{$post->body}}</p>
+        <p style="margin-bottom:50px">{!!$post->body!!}</p>
 
     </div>
     <hr>

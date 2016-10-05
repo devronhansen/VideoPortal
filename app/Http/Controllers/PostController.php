@@ -6,8 +6,8 @@ use App\Category;
 use Illuminate\Http\Request;
 use App\Post;
 use Illuminate\Support\Facades\Input;
+use Purifier;
 use Session;
-use Illuminate\Support\Facades\File;
 
 class PostController extends Controller
 {
@@ -47,7 +47,7 @@ class PostController extends Controller
         $post = new Post;
 
         $post->title = $request->input('title');
-        $post->body = $request->input('body');
+        $post->body = Purifier::clean($request->input('body'));
         $post->slug = $request->input('slug');
         $post->category_id = $request->category_id;
         $post->save();
@@ -99,7 +99,7 @@ class PostController extends Controller
             ));
         }
         $posts->title = $request->input('title');
-        $posts->body = $request->input('body');
+        $posts->body = Purifier::clean($request->input('body'));
         $posts->category_id = $request->input('category_id');
         $posts->slug = $request->input('slug');
         $posts->save();

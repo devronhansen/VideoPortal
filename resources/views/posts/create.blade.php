@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@section('style')
+    <link rel="stylesheet" href="/css/loading.css">
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins:'link',
+            menubar: false
+        })
+    </script>
+@endsection
+
 @section('content')
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -19,13 +31,15 @@
                 </div>
                 <div class="input-group col-md-4 {{--col-md-offset-5--}}">
                     <span class="input-group-addon">Titel</span>
-                    <input type="text" class="form-control" placeholder="Title" value="{{ old('title') }}" name="title" required>
+                    <input type="text" class="form-control" placeholder="Title" value="{{ old('title') }}" name="title"
+                           required>
                 </div>
 
                 <br>
                 <div class="input-group col-md-4">
                     <span class="input-group-addon">Slug</span>
-                    <input type="text" class="form-control" placeholder="Slug" name="slug" value="{{ old('slug') }}" required>
+                    <input type="text" class="form-control" placeholder="Slug" name="slug" value="{{ old('slug') }}"
+                           required>
                 </div>
                 <br>
                 <br><label class="btn btn-primary btn-file col-md-4 col-md-offset-1">
@@ -47,16 +61,20 @@
                           style="display: block"></span></h4>
 
                 <br>
-
+                <div id="loading">
+                    <img id="loading-image" src="/pictures/loading.svg" alt="Loading..." />
+                </div>
                 <div class="form-group col-md-12" style="margin-top: 25px">
                     <label for="body">Post:</label>
-                    <textarea class="form-control" rows="7" id="body" name="body" required
+                    <textarea class="form-control" rows="15" id="body" name="body"
                               style="resize: none">{{ old('body') }}</textarea>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Sende Post</button>
+                <button type="submit" class="btn btn-primary btn-block save">Sende Post</button>
             </form>
         </div>
     </div>
+@endsection
 
-
+@section('scripts')
+    <script src="/javascript/loading.js"></script>
 @endsection

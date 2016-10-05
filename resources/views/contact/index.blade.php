@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('style')
+    <link rel="stylesheet" href="/css/contact-style.css">
+@endsection
+
+
 @section('content')
     <div class="container">
         <form action="/contact" method="POST">
@@ -9,26 +14,26 @@
             </h2>
             <hr>
             <br>
-            <div class="input-group col-sm-6 col-md-4">
-                <span class="input-group-addon" id="basic-addon1">Dein Name</span>
-                <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name="name"
+            <div class="input-group col-sm-7 col-md-5">
+                <span class="input-group-addon one-width" id="basic-addon1">Dein Name</span>
+                <input type="text" class="form-control one-width" placeholder="Name" aria-describedby="basic-addon1" name="name"
                        @if(Auth::check())
                        value="{{Auth::user()->name}}"
                         @endif
                 >
             </div>
             <br>
-            <div class="input-group col-sm-6 col-md-4">
-                <span class="input-group-addon" id="basic-addon1">Deine Email</span>
-                <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1" name="email"
+            <div class="input-group col-sm-7 col-md-5">
+                <span class="input-group-addon one-width" id="basic-addon1">Deine Email</span>
+                <input type="text" class="form-control " placeholder="Email" aria-describedby="basic-addon1" name="email"
                        @if(Auth::check())
                        value="{{Auth::user()->email}}"
                         @endif
                 >
             </div>
             <br>
-            <div class="input-group col-sm-6 col-md-4">
-                <span class="input-group-addon" id="basic-addon1">Thema:</span>
+            <div class="input-group col-sm-7 col-md-5">
+                <span class="input-group-addon one-width" id="basic-addon1">Thema</span>
                 <input type="text" class="form-control" placeholder="Thema" aria-describedby="basic-addon1"
                        name="subject">
             </div>

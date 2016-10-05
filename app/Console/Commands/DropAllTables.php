@@ -18,7 +18,7 @@ class DropAllTables extends Command
      *
      * @var string
      */
-    protected $description = 'test';
+    protected $description = 'Drops all Tables in the Database';
 
     /**
      * Create a new command instance.
