@@ -1,13 +1,20 @@
 <?php
 namespace App\Http\Controllers;
+
 use App\Post;
 use App\Category;
+
 class VideoController extends Controller
 {
     public function getAll()
     {
-        return Post::orderBy('id', 'desc')->get();
+        $posts = Post::orderBy('id', 'desc')->get();
+        return array_map(function ($post) {
+            $post->body = strip_tags($post->body);
+            return $post;
+        }, $posts->all());
     }
+
     public function index()
     {
         $categories = Category::all();
@@ -20,9 +27,15 @@ class VideoController extends Controller
 
     public function giveAjax($category_id)
     {
-       return Post::where('category_id', $category_id)
-           ->orderBy('id', 'desc')
-           ->get();
+        $posts = Post::where('category_id', $category_id)
+            ->orderBy('id', 'desc')
+            ->get();
+
+        return array_map(function ($post) {
+            $post->body = strip_tags($post->body);
+            return $post;
+        }, $posts->all());
+
     }
 
     public function welcome()
