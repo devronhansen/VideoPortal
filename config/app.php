@@ -150,6 +150,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Mews\Purifier\PurifierServiceProvider::class,
+        Miguel_Costa\Office365API\Office365APIServiceProvider::class,
         /*
          * Package Service Providers...
          */

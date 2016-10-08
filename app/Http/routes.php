@@ -20,3 +20,7 @@ Route::resource('categories', 'CategoryController', ['except' => ['create']]);
 
 //Comments
 Route::post('comments/{post_id}', 'CommentsController@store');
+
+
+Route::get('/redirect', 'SocialAuthController@redirect');
+Route::get('/callback', 'SocialAuthController@callback');

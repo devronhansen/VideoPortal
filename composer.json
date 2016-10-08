@@ -12,7 +12,8 @@
     "laravel/framework": "5.2.*",
     "filp/whoops": "^2.1",
     "intervention/image": "^2.3",
-    "mews/purifier": "^2.0"
+    "mews/purifier": "^2.0",
+    "miguel_costa/office365api": "^1.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
