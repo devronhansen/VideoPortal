@@ -53,10 +53,14 @@
                                 <button type="submit" class="btn btn-primary">
                                     <i class="fa fa-btn fa-sign-in"></i> Login
                                 </button>
-
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">Passwort vergessen?</a>
                             </div>
                         </div>
+                        <hr>
+                        <a href="/redirect" {{--class="col-md-offset-4"--}}>
+                            <h3><span class="label label-info col-md-8 col-md-offset-1" style="margin-top: 40px; background-color:#f45f42 ">Oder loggen Sie sich mit ihrem Office 365 Konto ein</span></h3>
+                            <img src="/pictures/office365.png" alt="Einloggen mit Office365" style="width: 15%; height: 13%; margin-left: 15px" class="">
+                        </a>
                     </form>
                 </div>
             </div>
