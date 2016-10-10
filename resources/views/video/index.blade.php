@@ -4,8 +4,7 @@
     <div class="col-md-12">
         <h1>Alle Videos</h1>
     </div>
-    <div class="row">
-        <div class="col-md-4 col-md-offset-8">
+        <div class="col-md-3 pull-right">
             <select class="form-control" name="category_id" id="select-category">
                 <option value="" disabled selected hidden>Sortieren nach Katagorie...</option>
                 <option value="0">Alle</option>
@@ -14,9 +13,14 @@
                 @endforeach
             </select>
         </div>
+    <div class="input-group col-md-2 pull-right">
+        <input type="text" class="form-control" id="search" name="search"
+               placeholder="Suchen...">
+    </div>
         <div class="col-md-12">
             <hr>
         </div>
+    <div class="row">
         <div id="all-thumbnails">
             @foreach($posts as $post)
                 <div class="col-md-3">
@@ -40,4 +44,22 @@
 
 @section('scripts')
     <script src="/javascript/order-videos.js"></script>
+    <script type="text/javascript">
+        $('#search').on('keyup', function () {
+           $value = $(this).val();
+            $.ajax({
+                type : 'get',
+                url : '{{URL::to('search')}}',
+                data: {'search': $value},
+                success:function (data) {
+                    if(data.no!==""){
+                        $('#all-thumbnails').html(data);
+                    }
+                    else{
+                        alert('not found');
+                    }
+                }
+            });
+        });
+    </script>
 @endsection

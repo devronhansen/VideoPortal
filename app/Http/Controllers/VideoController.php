@@ -3,6 +3,9 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use App\Category;
+use App\Http\Requests;
+use Illuminate\Http\Request;
+use DB;
 
 class VideoController extends Controller
 {
@@ -23,6 +26,26 @@ class VideoController extends Controller
             'posts' => $posts,
             'categories' => $categories
         ]);
+    }
+
+    public function search(Request $request)
+    {
+        if ($request->ajax()) {
+            $output = "";
+            $posts = DB::table('posts')->where('title', 'LIKE', '%' . $request->search . '%')->get();
+            if ($posts) {
+                foreach ($posts as $post) {
+                    $title = (strlen($post->title) >= 18) ? substr($post->title, 0, 18) . "..." : $post->title;
+                    $body = (strip_tags(strlen($post->body) >= 130)) ? strip_tags(substr($post->body, 0, 130)) . "..." : strip_tags($post->body);
+
+                    $output .= '<div class="col-md-3"><div class="thumbnail"><img src="/thumbnails/' . $post->id . '.jpg" alt="..."><div class="caption">' .
+                        '<h3>' . $title . '</h3>' .
+                        '<p>' . $body . '</p>' .
+                        '</p><p><a href="/video/' . $post->slug . '" class="btn btn-primary place-bottom-left" role="button">Mehr</a></p></div></div></div>';
+                }
+                return Response($output);
+            }
+        }
     }
 
     public function giveAjax($category_id)

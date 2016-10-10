@@ -3,15 +3,17 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/resources/views/video/index.blade.php" line="2" />
     <bookmark url="file://$PROJECT_DIR$/resources/views/about/index.blade.php" />
-    <bookmark url="file://$PROJECT_DIR$/resources/views/video/index.blade.php" line="38" />
-    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php" line="18" />
+    <bookmark url="file://$PROJECT_DIR$/resources/views/video/index.blade.php" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php" line="21" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ccf63d-00e9-4d75-ad06-15ef2fa7dfc9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pictures/Thumbs.db" afterPath="$PROJECT_DIR$/public/pictures/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/video/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/video/index.blade.php" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,21 +48,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
+      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="546">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+              <folding>
+                <element signature="e#39#52#0#PHP" expanded="true" />
+                <marker date="1476104085761" expanded="true" signature="1272:1634" ph="..." />
+                <marker date="1476104085761" expanded="true" signature="1295:1634" ph="..." />
+                <marker date="1476104085761" expanded="true" signature="1371:1405" ph="..." />
+                <marker date="1476104085761" expanded="true" signature="1371:1634" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="office365API.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/office365API.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/video/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="588">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -69,86 +77,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PasswordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocialAuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding>
-                <element signature="e#40#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#3041#3092#0#HTML" expanded="true" />
-                <element signature="e#3250#3300#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="62" column="21" selection-start-line="61" selection-start-column="20" selection-end-line="62" selection-end-column="21" />
-              <folding>
-                <element signature="e#4007#4058#0#HTML" expanded="true" />
-                <element signature="e#4214#4264#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocialAccountService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/SocialAccountService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="728">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -177,12 +107,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Http/upload.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_09_27_090541_create_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_09_27_091031_add_category_id_to_posts.php" />
         <option value="$PROJECT_DIR$/resources/views/categories/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_08_18_084036_create_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/public/javascript/action.js" />
@@ -214,20 +142,22 @@
         <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/public/css/loading.css" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" />
-        <option value="$PROJECT_DIR$/resources/views/video/index.blade.php" />
         <option value="$PROJECT_DIR$/public/javascript/order-videos.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_10_08_192115_create_social_accounts_table.php" />
         <option value="$PROJECT_DIR$/app/SocialAccount.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/config/office365API.php" />
         <option value="$PROJECT_DIR$/app/SocialAccountService.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/config/office365API.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/video/index.blade.php" />
       </list>
     </option>
   </component>
@@ -334,6 +264,7 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -344,7 +275,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +282,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="SearchEverywhereHistoryKey" value="regis&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/auth/register.blade.php&#10;login.bl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/auth/login.blade.php&#10;route&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/routes.php&#10;config/app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;SocialAcc&#9;null&#9;null&#10;create_s&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/database/migrations/2016_10_08_192115_create_social_accounts_table.php&#10;soci&#9;null&#9;null&#10;config/ser&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/services.php&#10;authc&#9;null&#9;null&#10;Office&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/office365API.php&#10;config/a&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;video/&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video&#10;vide&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/VideoController.php&#10;hom&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/home.blade.php&#10;pos&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;javascript&#9;null&#9;null&#10;post/cre&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;post/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;app.&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app.bl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;post/ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;post/ind&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;purifier&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/purifier.php&#10;post&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;config/ap&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;video/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/index.blade.php&#10;post/inde&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;video/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/index.blade.php&#10;sing&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/show.blade.php&#10;ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;cre&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;edi&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;app.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;appl&#9;ACTION&#9;ChangesView.ApplyPatch&#10;contact/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;video&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/VideoController.php&#10;commec&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/CommentsController.php&#10;singl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;env&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;postc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;Contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php&#10;edit&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;contact/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;contact&#9;null&#9;null&#10;StreamBuffer.p&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php&#10;create.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;.e&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;sty&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/public/css/style.css" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;video/index&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video/index.blade.php&#10;video&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;Sea&#9;null&#9;null&#10;offi&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config/office365API.php&#10;rout&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;app.php&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config/app.php&#10;regis&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/auth/register.blade.php&#10;login.bl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/auth/login.blade.php&#10;config/app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;SocialAcc&#9;null&#9;null&#10;create_s&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/database/migrations/2016_10_08_192115_create_social_accounts_table.php&#10;soci&#9;null&#9;null&#10;config/ser&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/services.php&#10;authc&#9;null&#9;null&#10;Office&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/office365API.php&#10;config/a&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;video/&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video&#10;vide&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/VideoController.php&#10;hom&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/home.blade.php&#10;pos&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;javascript&#9;null&#9;null&#10;post/cre&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;post/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;app.&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;app.bl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;post/ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;post/ind&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;purifier&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/purifier.php&#10;post&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;config/ap&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/config/app.php&#10;video/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/index.blade.php&#10;post/inde&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/index.blade.php&#10;video/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/index.blade.php&#10;sing&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;sh&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/show.blade.php&#10;ed&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;cre&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/create.blade.php&#10;edi&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;app.b&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/layouts/app.blade.php&#10;appl&#9;ACTION&#9;ChangesView.ApplyPatch&#10;contact/in&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php&#10;commec&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/CommentsController.php&#10;singl&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/video/single.blade.php&#10;env&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/.env&#10;postc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/PostController.php&#10;Contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php&#10;edit&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/posts/edit.blade.php&#10;contact/i&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/contact/index.blade.php" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -474,11 +404,12 @@
       <workItem from="1475779242299" duration="3377000" />
       <workItem from="1475855621059" duration="18000" />
       <workItem from="1475942991157" duration="10182000" />
+      <workItem from="1476077978982" duration="9952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236967000" />
+    <option name="totallyTimeSpent" value="246919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,26 +425,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11513859" sideWeight="0.50360453" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1171875" sideWeight="0.49639547" order="0" side_tool="false" content_ui="tabs" x="856" y="23" width="207" height="994" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084375" sideWeight="0.49639547" order="0" side_tool="false" content_ui="tabs" x="856" y="23" width="207" height="994" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11513859" sideWeight="0.50360453" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997987" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18645833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.108208954" sideWeight="0.50360453" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -529,7 +460,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11513859" sideWeight="0.50360453" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1171875" sideWeight="0.49639547" order="0" side_tool="false" content_ui="tabs" x="856" y="23" width="207" height="994" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078125" sideWeight="0.49639547" order="0" side_tool="false" content_ui="tabs" x="856" y="23" width="207" height="994" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -557,41 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -750,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1624">
           <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="60" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,21 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="e#39#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,15 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/video/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" column="110" selection-start-line="26" selection-start-column="110" selection-end-line="26" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,13 +709,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_10_08_192115_create_social_accounts_table.php" />
+    <entry file="file://$PROJECT_DIR$/app/SocialAccountService.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/SocialAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
+        <state relative-caret-position="882">
           <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding />
         </state>
@@ -854,91 +795,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/SocialAccount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_10_08_192115_create_social_accounts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/office365API.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="532">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/SocialAccountService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#81#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="658">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
-            <element signature="e#3041#3092#0#HTML" expanded="true" />
-            <element signature="e#3250#3300#0#HTML" expanded="true" />
+            <element signature="e#3250#3300#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="62" column="21" selection-start-line="61" selection-start-column="20" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VideoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <element signature="e#4007#4058#0#HTML" expanded="true" />
-            <element signature="e#4214#4264#0#HTML" expanded="true" />
+            <element signature="e#39#52#0#PHP" expanded="true" />
+            <marker date="1476104085761" expanded="true" signature="1272:1634" ph="..." />
+            <marker date="1476104085761" expanded="true" signature="1295:1634" ph="..." />
+            <marker date="1476104085761" expanded="true" signature="1371:1405" ph="..." />
+            <marker date="1476104085761" expanded="true" signature="1371:1634" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/video/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
