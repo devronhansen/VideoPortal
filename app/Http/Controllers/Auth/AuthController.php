@@ -66,7 +66,7 @@ class AuthController extends Controller
     {
         $login = $this->traitGetCredentials($request);
 
-        return array_merge($login, ['isBlocked' => 0]);
+        return array_merge($login, ['isBanned' => 0]);
     }
 
 

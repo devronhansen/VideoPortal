@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
             $table->boolean('isAdmin')->default('0');
-            $table->boolean('isBlocked')->default('0');
+            $table->boolean('isBanned')->default('0');
         });
     }
 
