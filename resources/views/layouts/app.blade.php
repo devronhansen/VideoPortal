@@ -74,6 +74,7 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="/profile/{{Auth::user()->id}}"><i class="fa fa-btn fa-user"></i> Profil</a></li>
                             @if(Auth::user()->isAdmin)
                                 <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Admin Ansicht</a>
                                 </li>

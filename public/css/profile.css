@@ -1,0 +1,9 @@
+.profile-settings:hover{
+    background-color: #d9edf7;
+    color:gray;
+}
+
+.profile-comments:hover{
+    background-color: #337ab7;
+    color:white;
+}

@@ -44,7 +44,7 @@
                 <textarea class="form-control" rows="10" id="comment" name="comment"
                           style="resize: none">{{old('comment')}}</textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Email senden</button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-envelope" aria-hidden="true"></i> Email senden</button>
         </form>
     </div>
 
