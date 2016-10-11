@@ -12,7 +12,7 @@ class makeAdmin extends Command
      *
      * @var string
      */
-    protected $signature = 'makeAdmin';
+    protected $signature = 'make:admin {email}';
 
     /**
      * The console command description.
@@ -39,9 +39,9 @@ class makeAdmin extends Command
     public function handle()
     {
         $user = new User();
-        $user->name = 'Ron Hansen';
-        $user->password= bcrypt('citrix170890');
-        $user->email='ron.hansen112@gmail.com';
+        $user->name = 'Administrator';
+        $user->password= bcrypt('admin');
+        $user->email=$this->argument('email');
         $user->isAdmin = '1';
         $user->save();
         $this->info('Admin was succesfully created!');

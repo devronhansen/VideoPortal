@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Events\UserWasBanned;
 use Illuminate\Console\Command;
 use App\User;
+
 class BanUser extends Command
 {
     /**
@@ -12,7 +13,7 @@ class BanUser extends Command
      *
      * @var string
      */
-    protected $signature = 'ban:user {username}';
+    protected $signature = 'ban:user {email}';
     /**
      * The console command description.
      *
@@ -37,12 +38,12 @@ class BanUser extends Command
      */
     public function handle()
     {
-        $user = User::where('name', $this->argument('username'))->first();
-        if($user->isAdmin){
+        $user = User::where('email', $this->argument('email'))->first();
+        if ($user->isAdmin) {
             return $this->info('You are not allowed to ban Administrators');
         }
-        if(event(new UserWasBanned($user))){
-            $this->info($user->name.' was succesfully banned');
+        if (event(new UserWasBanned($user))) {
+            $this->info($user->name . ' was succesfully banned');
         }
     }
 }
