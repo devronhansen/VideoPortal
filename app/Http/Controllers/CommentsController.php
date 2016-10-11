@@ -21,8 +21,7 @@ class CommentsController extends Controller
         $this->validate($request, array(
             'comment' => 'required|min:5|max:2000'
         ));
-
-        if(Purifier::clean($request->comment) >= 5){
+        if(strlen(Purifier::clean($request->comment)) >= 5){
             $comment = new Comment();
             $comment->comment = Purifier::clean($request->comment);
             $comment->approved = true;
