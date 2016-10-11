@@ -25,3 +25,8 @@ Route::post('comments/{post_id}', 'CommentsController@store');
 Route::get('/redirect', 'SocialAuthController@redirect');
 Route::get('/callback', 'SocialAuthController@callback');
 Route::get('/search', 'VideoController@search');
+
+Route::get('/user', 'PostController@indexUser');
+
+Route::get('/user/ban/{user}', 'PostController@BanUser');
+Route::get('/user/unban/{user}', 'PostController@UnbanUser');

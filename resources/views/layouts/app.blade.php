@@ -79,6 +79,8 @@
                                 </li>
                                 <li><a href="{{ url('/categories') }}"><i class="fa fa-bars"></i></i> Kategorien</a>
                                 </li>
+                                <li><a href="{{ url('/user') }}"><i class="fa fa-users"></i></i> User</a>
+                                </li>
                             @endif
                             <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Ausloggen</a></li>
                         </ul>

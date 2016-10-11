@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Events\UserWasUnbanned;
 use Illuminate\Http\Request;
 use App\Post;
 use Illuminate\Support\Facades\Input;
 use Purifier;
 use Session;
+use App\User;
+use App\Events\UserWasBanned;
 
 class PostController extends Controller
 {
@@ -37,10 +40,10 @@ class PostController extends Controller
     {
         //Validate the data
         $this->validate($request, array(
-            'title'         => 'required|max:150',
-            'slug'          => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
-            'category_id'   => 'required|integer',
-            'body'          => 'required'
+            'title' => 'required|max:150',
+            'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
+            'category_id' => 'required|integer',
+            'body' => 'required'
         ));
 
         //store in the database
@@ -110,4 +113,26 @@ class PostController extends Controller
         Session::flash('success', 'Der Eintrag wurde erfolgreich gespeichert!');
         return redirect('/posts');
     }
+
+    public function indexUser()
+    {
+        $users = User::all();
+        return view('posts.users', [
+            'users' => $users
+        ]);
+    }
+
+    public function BanUser(User $user)
+    {
+        event(new UserWasBanned($user));
+        return back();
+    }
+
+    public function UnbanUser(User $user)
+    {
+        event(new UserWasUnbanned($user));
+        return back();
+    }
+
+
 }

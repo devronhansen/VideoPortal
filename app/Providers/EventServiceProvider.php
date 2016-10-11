@@ -17,6 +17,10 @@ class EventServiceProvider extends ServiceProvider
             'App\Listeners\EmailBanNotification',
             'App\Listeners\BanTheUser',
         ],
+        'App\Events\UserWasUnbanned' => [
+            'App\Listeners\EmailUnbanNotification',
+            'App\Listeners\UnbanTheUser',
+        ],
     ];
 
     /**
