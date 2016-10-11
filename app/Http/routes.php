@@ -34,3 +34,5 @@ Route::get('/user/unban/{user}', 'PostController@UnbanUser');
 Route::get('/comments/delete/{comment}', 'PostController@DeleteComment');
 
 Route::get('profile/{user}', 'ProfileController@show');
+Route::post('profile/newname', 'ProfileController@newName');
+Route::post('profile/newpassword', 'ProfileController@newPassword');

@@ -1,9 +1,16 @@
 .profile-settings:hover{
     background-color: #d9edf7;
     color:gray;
+    cursor: pointer;
 }
 
 .profile-comments:hover{
     background-color: #337ab7;
     color:white;
+    cursor: pointer;
+}
+
+.no-wrap{
+    white-space: nowrap;
+    width: 1%;
 }
