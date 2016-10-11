@@ -8,17 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ccf63d-00e9-4d75-ad06-15ef2fa7dfc9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/10.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/16.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/7.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnails/3.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +44,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CommentsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommentsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
@@ -61,6 +52,16 @@
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +138,6 @@
         <option value="$PROJECT_DIR$/app/Listeners/BanTheUser.php" />
         <option value="$PROJECT_DIR$/app/Listeners/UnbanTheUser.php" />
         <option value="$PROJECT_DIR$/app/Listeners/EmailUnbanNotification.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/posts/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/video/index.blade.php" />
@@ -149,6 +149,7 @@
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -238,38 +239,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
@@ -291,7 +260,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="SearchEverywhereHistoryKey" value="views/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views&#10;app&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;flash&#9;null&#9;null&#10;Ses&#9;null&#9;null&#10;Session&#9;null&#9;null&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;commentco&#9;null&#9;null&#10;single.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video/single.blade.php&#10;videoc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;comment&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Comment.php&#10;rout&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;postc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;create_comm&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;post/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts&#10;video/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video&#10;home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;show.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;user&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/users.blade.php&#10;index&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/index.blade.php&#10;.idea/w&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.idea/workspace.xml&#10;unban&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Listeners/EmailUnbanNotification.php&#10;banU&#9;null&#9;null&#10;userwas&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Events/UserWasBanned.php&#10;UserW&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/userwasunbanned.blade.php&#10;banthe&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Listeners/BanTheUser.php&#10;unbanthe&#9;null&#9;null&#10;email&#9;null&#9;null&#10;UserwasU&#9;null&#9;null&#10;event&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Providers/EventServiceProvider.php&#10;Banu&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Console/Commands/BanUser.php&#10;routes&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;post/inde&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/index.blade.php&#10;Pos&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;view/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views&#10;swiftma&#9;null&#9;null&#10;config/ma&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config/mail.php&#10;config/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config&#10;.env&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.env&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2014_10_12_000000_create_users_table.php&#10;console/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/vendor/symfony/console&#10;ban&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Console/Commands/BanUser.php&#10;Authen&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php&#10;authc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/Auth/AuthController.php&#10;contact&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/contact.blade.php&#10;contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/contact.blade.php&#10;make&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Console/Commands/makeAdmin.php&#10;banUs&#9;null&#9;null&#10;email/&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails&#10;cont&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/ContactController.php" />
+    <property name="SearchEverywhereHistoryKey" value="idea/wor&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.idea/workspace.xml&#10;idea/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.idea&#10;views/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views&#10;app&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/layouts/app.blade.php&#10;flash&#9;null&#9;null&#10;Ses&#9;null&#9;null&#10;Session&#9;null&#9;null&#10;post&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;commentco&#9;null&#9;null&#10;single.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video/single.blade.php&#10;videoc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/VideoController.php&#10;create&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;comment&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Comment.php&#10;rout&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;postc&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;create_comm&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2016_10_03_190914_create_comments_table.php&#10;post/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts&#10;video/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/video&#10;home&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/home.blade.php&#10;show.bl&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/show.blade.php&#10;user&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/users.blade.php&#10;index&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/index.blade.php&#10;.idea/w&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.idea/workspace.xml&#10;unban&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Listeners/EmailUnbanNotification.php&#10;banU&#9;null&#9;null&#10;userwas&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Events/UserWasBanned.php&#10;UserW&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/userwasunbanned.blade.php&#10;banthe&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Listeners/BanTheUser.php&#10;unbanthe&#9;null&#9;null&#10;email&#9;null&#9;null&#10;UserwasU&#9;null&#9;null&#10;event&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Providers/EventServiceProvider.php&#10;Banu&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Console/Commands/BanUser.php&#10;routes&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/routes.php&#10;post/inde&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views/posts/index.blade.php&#10;Pos&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/app/Http/Controllers/PostController.php&#10;view/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/resources/views&#10;swiftma&#9;null&#9;null&#10;config/ma&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config/mail.php&#10;config/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/config&#10;.env&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/.env&#10;crea&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/database/migrations/2014_10_12_000000_create_users_table.php&#10;console/&#9;FILE&#9;file://C:/Users/rohansen/Projects/Laravel/Video/Blog/vendor/symfony/console&#10;ban&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Console/Commands/BanUser.php&#10;Authen&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php&#10;authc&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Http/Controllers/Auth/AuthController.php&#10;contact&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/contact.blade.php&#10;contac&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/resources/views/emails/contact.blade.php&#10;make&#9;FILE&#9;file://C:/Users/Ron/Code/Blog/app/Console/Commands/makeAdmin.php&#10;banUs&#9;null&#9;null" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -417,12 +386,12 @@
       <workItem from="1476114380124" duration="5635000" />
       <workItem from="1476164858246" duration="4485000" />
       <workItem from="1476170330899" duration="686000" />
-      <workItem from="1476171114755" duration="5432000" />
+      <workItem from="1476171114755" duration="5984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267445000" />
+    <option name="totallyTimeSpent" value="267997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,22 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/UserWasBanned.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -898,6 +851,22 @@
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
