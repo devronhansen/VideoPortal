@@ -24,7 +24,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function comments(){
+    public function comments()
+    {
         return $this->belongsToMany('App\Comments');
     }
 }
