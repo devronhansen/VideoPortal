@@ -22,7 +22,7 @@
                         @if(!$user->isBanned)
                             <td><a href="/user/ban/{{$user->id}}" class="btn btn-danger btn-block" @if($user->isAdmin) disabled @endif>Bannen</a></td>
                         @else
-                            <td><a href="" class="btn btn-success btn-block">Entbannen</a></td>
+                            <td><a href="/user/unban/{{$user->id}}" class="btn btn-success btn-block">Entbannen</a></td>
                         @endif
                     </tr>
                 @endforeach

@@ -26,7 +26,9 @@ class BanTheUser
      */
     public function handle(UserWasBanned $event)
     {
-        if(!$event->user->isAdmin)
-        $event->user->isBanned = '1';
+        if(!$event->user->isAdmin){
+            $event->user->isBanned = '1';
+            $event->user->save();
+        }
     }
 }

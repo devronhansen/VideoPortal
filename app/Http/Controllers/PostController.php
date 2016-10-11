@@ -125,14 +125,14 @@ class PostController extends Controller
     public function BanUser(User $user)
     {
         event(new UserWasBanned($user));
+        Session::flash('success', 'Der Benutzer wurde erfolgreich gebannt!');
         return back();
     }
 
     public function UnbanUser(User $user)
     {
         event(new UserWasUnbanned($user));
+        Session::flash('success', 'Der Benutzer wurde erfolgreich entbannt!');
         return back();
     }
-
-
 }

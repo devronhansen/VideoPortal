@@ -26,7 +26,9 @@ class UnbanTheUser
      */
     public function handle(UserWasUnbanned $event)
     {
-        if(!$event->user->isAdmin)
+        if(!$event->user->isAdmin){
             $event->user->isBanned = '0';
+            $event->user->save();
+        }
     }
 }
