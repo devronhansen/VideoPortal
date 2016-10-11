@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="comment-content">
-                    {{$comment->comment}}
+                    {!!$comment->comment !!}
                 </div>
             </div>
         @endforeach

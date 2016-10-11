@@ -3,7 +3,8 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <h3>Alle Benutzer</h3>
+            <h1>Alle Benutzer</h1>
+            <hr>
             <table class="table">
                 <thead>
                 <th>ID</th>
@@ -20,7 +21,8 @@
                         <td>{{(strlen($user->email)>=25) ? substr($user->email, 0, 25)."..." : $user->email}}</td>
                         <td>{{$user->created_at}}</td>
                         @if(!$user->isBanned)
-                            <td><a href="/user/ban/{{$user->id}}" class="btn btn-danger btn-block" @if($user->isAdmin) disabled @endif>Bannen</a></td>
+                            <td><a href="/user/ban/{{$user->id}}" class="btn btn-danger btn-block"
+                                   @if($user->isAdmin) disabled @endif>Bannen</a></td>
                         @else
                             <td><a href="/user/unban/{{$user->id}}" class="btn btn-success btn-block">Entbannen</a></td>
                         @endif

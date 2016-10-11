@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Comment;
 use App\Events\UserWasUnbanned;
 use Illuminate\Http\Request;
 use App\Post;
@@ -133,6 +134,14 @@ class PostController extends Controller
     {
         event(new UserWasUnbanned($user));
         Session::flash('success', 'Der Benutzer wurde erfolgreich entbannt!');
+        return back();
+    }
+
+    public function DeleteComment(Comment $comment)
+    {
+        $comment->comment="<i>".'Dieser Kommentar wurde von einem Administrator gelöscht'."</i>";
+        $comment->save();
+        Session::flash('success', 'Der Kommentar wurde erfolgreich gelöscht!');
         return back();
     }
 }

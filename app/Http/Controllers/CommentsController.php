@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use Auth;
 use Session;
+use Purifier;
 
 class CommentsController extends Controller
 {
@@ -21,17 +22,19 @@ class CommentsController extends Controller
             'comment' => 'required|min:5|max:2000'
         ));
 
+        if(Purifier::clean($request->comment) >= 5){
+            $comment = new Comment();
+            $comment->comment = Purifier::clean($request->comment);
+            $comment->approved = true;
+            $comment->post()->associate($post_id);
+            $comment->user()->associate(Auth::id());
+            $comment->save();
 
-        $comment = new Comment();
-
-        $comment->comment = $request->comment;
-        $comment->approved = true;
-        $comment->post()->associate($post_id);
-        $comment->user()->associate(Auth::id());
-        $comment->save();
-
-        Session::flash('success', 'Kommentar wurde hinzugefügt');
-
+            Session::flash('success', 'Kommentar wurde hinzugefügt');
+        }
+        else{
+            Session::flash('error', 'Kommentar konnte nicht hinzugefügt werden');
+        }
         return back();
     }
 }

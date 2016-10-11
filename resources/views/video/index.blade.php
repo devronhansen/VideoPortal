@@ -28,7 +28,7 @@
                         <img src="/thumbnails/{{$post->id}}.jpg" alt="...">
                         <div class="caption">
                             <h3>{{(strlen($post->title)>=18) ? substr($post->title, 0, 18)."..." : $post->title}}</h3>
-                            <p>{{(strip_tags(strlen($post->body)>=130)) ? strip_tags(substr($post->body, 0, 130))."..." : strip_tags($post->body)}}</p>
+                            <p>{{ strlen(strip_tags($post->body))>=130 ? substr(strip_tags($post->body), 0, 130)."..." : strip_tags($post->body)}}</p>
                             <p><a href="/video/{{$post->slug}}" class="btn btn-primary place-bottom-left" role="button">Mehr</a>
                             </p>
                         </div>

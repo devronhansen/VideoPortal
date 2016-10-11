@@ -30,3 +30,5 @@ Route::get('/user', 'PostController@indexUser');
 
 Route::get('/user/ban/{user}', 'PostController@BanUser');
 Route::get('/user/unban/{user}', 'PostController@UnbanUser');
+
+Route::get('/comments/delete/{comment}', 'PostController@DeleteComment');
