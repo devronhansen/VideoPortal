@@ -32,7 +32,7 @@
                     <tr>
                         <td>{{ $comment->user->name}}</td>
                         <td>{{ $comment->user->email}}</td>
-                        <td>{{ $comment->comment}}</td>
+                        <td>{{ strip_tags($comment->comment)}}</td>
                         <td>
                             <a href="/comments/delete/{{$comment->id}}" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-trash"></span></a>
                         </td>
