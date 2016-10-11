@@ -21,10 +21,19 @@
                         <td>{{(strlen($user->email)>=25) ? substr($user->email, 0, 25)."..." : $user->email}}</td>
                         <td>{{$user->created_at}}</td>
                         @if(!$user->isBanned)
-                            <td><a href="/user/ban/{{$user->id}}" class="btn btn-danger btn-block"
-                                   @if($user->isAdmin) disabled @endif>Bannen</a></td>
+                            <form action="/user/ban/{{$user->id}}">
+                                <td>
+                                    <button class="btn btn-danger btn-block" @if($user->isAdmin) disabled @endif>
+                                        Bannen
+                                    </button>
+                                </td>
+                            </form>
                         @else
-                            <td><a href="/user/unban/{{$user->id}}" class="btn btn-success btn-block">Entbannen</a></td>
+                            <form action="/user/unban/{{$user->id}}">
+                                <td>
+                                    <button class="btn btn-success btn-block">Entbannen</button>
+                                </td>
+                            </form>
                         @endif
                     </tr>
                 @endforeach
