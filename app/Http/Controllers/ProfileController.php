@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
-use App\Comment;
-use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
@@ -13,10 +11,8 @@ class ProfileController extends Controller
 {
     public function show(User $user)
     {
-       /* $comments = $user->comments();*/
         return view('profile.show', [
             'user' => $user,
-            /*'comments' => $comments*/
         ]);
     }
 
@@ -45,4 +41,3 @@ class ProfileController extends Controller
     }
 
 }
-u
