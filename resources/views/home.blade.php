@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('style')
+    <link rel="stylesheet" href="/css/homepage.css">
+@endsection
 @section('content')
     <div class="jumbotron">
         <img src="/pictures/helga-home.png" width="15%" height="15%" class="pull-right" style="margin-right: 100px"/>

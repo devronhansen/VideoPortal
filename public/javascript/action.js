@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.alert').delay(4000).fadeOut('slow');
     $(document).on('change', ':file', function () {
         var input = $(this),
             extension = input.val().split('.');

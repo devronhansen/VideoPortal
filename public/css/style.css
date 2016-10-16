@@ -1,43 +1,8 @@
-.btn-h1-spacing{
-    margin-top: 18px;
-}
-
-.push-to-bottom {
-    position:absolute;
-    bottom: 5%;
+.alert{
+    /*position: relative;*/
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    text-align: center;
+    vertical-align: middle;
 }
-
-.jumbotron{
-    background: #000 url("/pictures/background-home.jpg") no-repeat center center;
-    background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    color: white; // change text color
-}
-
-.test{
-    color: whitesmoke;
-   /* font-family: ;*/
-}
-.place-bottom-left{
-    position:absolute;
-    left:30px;
-    bottom: 30px;
-   /* margin-left: 30px;*/
-    /*margin-bottom: 50px;*/
-}
-
-/*.title-thumbnail{
-    font-size: 0.5em;
-}*/
-
-.thumbnail{
-    height: 380px;
-}
-
-.thumbnail-home{
-    height: 400px;
-}
-
