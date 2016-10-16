@@ -26,14 +26,14 @@
                     {{csrf_field()}}
                     <label for="comment">Kommentar:</label>
                     <textarea class="form-control" rows="5" name="comment" style="resize: none"></textarea>
-                    <button type="submit" class="btn btn-primary col-md-offset-10 pull-right" style="margin-top: 15px;">Kommentieren
+                    <button type="submit" class="btn btn-primary col-md-offset-10 pull-right" style="margin-top: 15px;">
+                        Kommentieren
                     </button>
                 </form>
             </div>
         </div>
     @else
         <div class="row">
-
             <h4 class="nologin">Du musst angemeldet sein um einen Kommentar zu schreiben</h4>
         </div>
 
@@ -41,7 +41,7 @@
     <div class="row">
 
         <h3 class="comments-title"><span
-                    class="glyphicon glyphicon-comment"></span> {{ $post->comments()->count() }} Comments</h3>
+                    class="glyphicon glyphicon-comment"></span> {{ $post->comments()->count() }} Kommentare</h3>
         @foreach($post->comments->reverse() as $comment)
             <div class="comment">
                 <div class="author-info">
