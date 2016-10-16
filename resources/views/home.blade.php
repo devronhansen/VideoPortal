@@ -1,14 +1,24 @@
 @extends('layouts.app')
 
-@section('content')
+@section('style')
+    <link rel="stylesheet" href="/css/homepage.css">
+@endsection
+
+@section('jumbotron')
     <div class="jumbotron">
-        <img src="/pictures/helga-home.png" width="15%" height="15%" class="pull-right" style="margin-right: 100px"/>
-        <h2 class="test">Hey, ich bin Helga die Office Eule</h2>
-        <p class="test">Wir haben in der IT da so ein neues Office Portal euch zugänglich gemacht.</br> Meine Aufgabe
-            ist es euch zu
-            zeigen, wie ihr schnell und einfach lernt damit umzugehen</p>
-        <p><a class="btn btn-primary btn-lg" href="/about" role="button">Erfahre mehr</a></p>
+        <img src="/pictures/helga-home.png" width="15%" height="50%" class="pull-right" style="margin-right: 100px"/>
+        <div class="col-md-offset-2" style="margin-top: 50px">
+            <h2 class="jumbotron-text">Hey, ich bin Helga die Office Eule</h2>
+            <p class="jumbotron-text">Wir haben in der IT da so ein neues Office Portal euch zugänglich gemacht.</br>
+                Meine Aufgabe
+                ist es euch zu
+                zeigen, wie ihr schnell und einfach lernt damit umzugehen</p>
+            <p><a class="btn btn-primary btn-lg " href="/about" role="button" style="margin-left: 70px">Erfahre mehr</a></p>
+        </div>
     </div>
+@endsection
+
+@section('content')
 
     <div class="row">
         @foreach($posts as $post)

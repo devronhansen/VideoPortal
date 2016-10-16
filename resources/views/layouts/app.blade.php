@@ -8,28 +8,10 @@
     <title>TSBW Video Portal</title>
 
     <!-- Fonts -->
-    {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
-          integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">--}}
-
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/googlefont-lato.css">
     <!-- Styles -->
-    {{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
-              integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">--}}
-    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    {{-- <style>
-         body {
-             font-family: 'Lato';
-         }
-
-         .fa-btn {
-             margin-right: 6px;
-         }
-     </style>--}}
     @yield('style')
 </head>
 <body id="app-layout">
@@ -74,7 +56,8 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="/profile/{{Auth::user()->id}}"><i class="fa fa-btn fa-user"></i> Profil</a></li>
+                            <li><a href="/profile/{{Auth::user()->id}}"><i class="fa fa-btn fa-user"></i> Profil</a>
+                            </li>
                             @if(Auth::user()->isAdmin)
                                 <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Admin Ansicht</a>
                                 </li>
@@ -114,6 +97,7 @@
         </ul>
     </div>
 @endif
+@yield('jumbotron')
 <div class="container">
     @yield('content')
 </div>
