@@ -6,3 +6,49 @@
     vertical-align: middle;
     z-index:1000
 }
+
+
+.navbar-custom{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}.navbar-custom,header .intro-text .name{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase}.navbar-custom .navbar-brand,.navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-nav{color:#fff}.navbar-custom{background:#2C3E50;font-weight:700;border:none}.navbar-custom a:focus{outline:0}.navbar-custom .navbar-nav{letter-spacing:1px}.navbar-custom .navbar-nav li a:hover{color:#18BC9C;outline:0}.navbar-custom .navbar-nav li a:active,.navbar-custom .navbar-nav li a:focus{color:#fff}.navbar-custom .navbar-nav li.active a,.navbar-custom .navbar-nav li.active a:active,.navbar-custom .navbar-nav li.active a:focus,.navbar-custom .navbar-nav li.active a:hover{color:#fff;background:#18BC9C}.navbar-custom .navbar-toggle{color:#fff;text-transform:uppercase;font-size:10px;border-color:#fff}.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{background-color:#18BC9C;color:#fff;border-color:#18BC9C}@media (min-width:768px){.navbar-custom{padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}.navbar-custom .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}.navbar-custom.affix{padding:10px 0}.navbar-custom.affix .navbar-brand{font-size:1.5em}}
+
+body {
+    padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.place-bottom-left {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    /* margin-left: 30px;*/
+    /*margin-bottom: 50px;*/
+}
+
+/*.title-thumbnail{
+    font-size: 0.5em;
+}*/
+
+.thumbnail {
+    height: 380px;
+    margin-top: 25px;
+}
+
+.thumbnail-home {
+    height: 400px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.dropdown-menu>li>a {
+padding:3px 36px 0px 20px;
+}
+
+
+.btn-h1-spacing {
+    margin-top: 18px;
+}
+
+.jumbotron p{
+    font-weight: 100;
+}
+

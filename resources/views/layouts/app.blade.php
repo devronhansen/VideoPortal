@@ -11,16 +11,17 @@
     {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
           integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">--}}
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/googlefont-lato.css">
     <!-- Styles -->
     {{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
               integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">--}}
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     {{-- <style>
          body {
              font-family: 'Lato';
@@ -32,69 +33,73 @@
      </style>--}}
     @yield('style')
 </head>
-<body id="app-layout">
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
+<body>
+<div id="entire-nav">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
 
-            <!-- Collapsed Hamburger -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#app-navbar-collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                <!-- Collapsed Hamburger -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#app-navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <!-- Branding Image -->
-            <a class="navbar-brand" href="{{ url('/') }}">
-                TSBW Video Portal
-            </a>
+                <!-- Branding Image -->
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    TSBW Video Portal
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                <!-- Left Side Of Navbar -->
+                <ul class="nav navbar-nav">
+                    {{-- <li><a href="{{ url('/home') }}">Home</a></li> --}}
+                    <li><a href="{{ url('video') }}">Alle Videos</a></li>
+                    <li><a href="{{ url('about') }}">Über uns</a></li>
+                    <li><a href="{{ url('contact') }}">Kontakt</a></li>
+                </ul>
+
+                <!-- Right Side Of Navbar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Authentication Links -->
+                    @if (Auth::guest())
+                        <li><a href="{{ url('/login') }}">Einloggen</a></li>
+                        <li><a href="{{ url('/register') }}">Registrieren</a></li>
+                    @else
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/profile/{{Auth::user()->id}}"><i class="fa fa-btn fa-user"></i> Profil</a>
+                                </li>
+                                @if(Auth::user()->isAdmin)
+                                    <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Alle Posts</a>
+                                    </li>
+                                    <li><a href="{{ url('/categories') }}"><i class="fa fa-bars"></i></i> Kategorien</a>
+                                    </li>
+                                    <li><a href="{{ url('/user') }}"><i class="fa fa-users"></i></i> User</a>
+                                    </li>
+                                @endif
+                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Ausloggen</a>
+                                </li>
+                            </ul>
+                        </li>
+                    @endif
+                </ul>
+            </div>
         </div>
-
-        <div class="collapse navbar-collapse" id="app-navbar-collapse">
-            <!-- Left Side Of Navbar -->
-            <ul class="nav navbar-nav">
-                {{-- <li><a href="{{ url('/home') }}">Home</a></li> --}}
-                <li><a href="{{ url('video') }}">Alle Videos</a></li>
-                <li><a href="{{ url('about') }}">Über uns</a></li>
-                <li><a href="{{ url('contact') }}">Kontakt</a></li>
-            </ul>
-
-            <!-- Right Side Of Navbar -->
-            <ul class="nav navbar-nav navbar-right">
-                <!-- Authentication Links -->
-                @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Einloggen</a></li>
-                    <li><a href="{{ url('/register') }}">Registrieren</a></li>
-                @else
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            {{ Auth::user()->name }} <span class="caret"></span>
-                        </a>
-
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/profile/{{Auth::user()->id}}"><i class="fa fa-btn fa-user"></i> Profil</a></li>
-                            @if(Auth::user()->isAdmin)
-                                <li><a href="{{ url('/posts') }}"><i class="fa fa-btn fa-archive"></i> Admin Ansicht</a>
-                                </li>
-                                <li><a href="{{ url('/categories') }}"><i class="fa fa-bars"></i></i> Kategorien</a>
-                                </li>
-                                <li><a href="{{ url('/user') }}"><i class="fa fa-users"></i></i> User</a>
-                                </li>
-                            @endif
-                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Ausloggen</a></li>
-                        </ul>
-                    </li>
-                @endif
-            </ul>
-        </div>
-    </div>
-</nav>
-
+    </nav>
+</div>
 @if (session('success'))
     <div class="alert alert-success" role="alert">
-       <h3>{{ session('success') }}</h3>
+        <h3>{{ session('success') }}</h3>
     </div>
 @endif
 

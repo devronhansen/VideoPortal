@@ -12,7 +12,6 @@
             zeigen, wie ihr schnell und einfach lernt damit umzugehen</p>
         <p><a class="btn btn-primary btn-lg" href="/about" role="button">Erfahre mehr</a></p>
     </div>
-
     <div class="row">
         @foreach($posts as $post)
             <div class="col-md-4">

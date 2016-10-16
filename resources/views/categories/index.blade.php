@@ -23,7 +23,7 @@
             </table>
         </div>
 
-        <div class="col-md-3 pull-right">
+        <div class="col-md-3 pull-right btn-h1-spacing">
             <div class="well">
                 <form method="POST" action="/categories">
                     {{ csrf_field() }}
